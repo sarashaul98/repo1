@@ -1,24 +1,49 @@
 
+  header {
+    padding-bottom: 51px;
+  }
   body {
     margin: 50px 150px 0 150px;
-  
+  }
+    @media (max-width: 800px) {
+      body {
+        background-color: lightblue;
+      }
   }
 
   .logo {
       
       background-color:black;
       font-size: 0.8cm;
-      padding-bottom: 0.5cm;
       
-        
      
   }
   
   #logo-img {
-    height: 80px;
+    height: 50px;
+    
+  }
+  nav {
+    position: fixed;
+    
+  }
+  
+
+  #ppage1 {
+    font-size: 0.5cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #a-page1 {
+    font-size: 0.5cm;
     
   }
 
+  footer {
+    text-align: center;
+  }
+.poster-page4 {
+  width: 250px;
+}
   
 
   
