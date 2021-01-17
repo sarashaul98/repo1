@@ -5,10 +5,10 @@
   body {
     margin: 50px 150px 0 150px;
   }
-    @media (max-width: 800px) {
-      body {
-        background-color: lightblue;
-      }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
   }
 
   .logo {
@@ -41,9 +41,15 @@
   footer {
     text-align: center;
   }
+
+  
 .poster-page4 {
   width: 250px;
 }
+
+table, th, td {
   
+  border: 1px solid black;
+  }
 
   
